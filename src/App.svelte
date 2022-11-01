@@ -40,8 +40,15 @@
       if (event.keyCode == 46) clear();
       if (event.keyCode == 53 && event.shiftKey == true) prosent();
     });
+<<<<<<< for_dop
   }
   handler();
+=======
+  } 
+
+  handler();
+  
+>>>>>>> local
   function enterNumber(num) {
     if (x.length > 10) {
       return;
